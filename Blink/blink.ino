@@ -3,7 +3,7 @@
 /* Blink*/
 
 void setup(){
- pinmode(13, OUTPUT);
+ pinMode(13, OUTPUT);
 }
 
 
