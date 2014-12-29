@@ -45,7 +45,7 @@
 
 // Ultrasonic sensor
 
-#include "NewPing.h"
+#include <NewPing.h>
 
 #define TRIG_PIN  A4  
 #define ECHO_PIN  A5  
@@ -58,7 +58,7 @@ float dangerThreshold = 20.0; // 20 cm - depends on the floor surface and speed 
  
 // Servo
 
-#include "Servo.h" 
+#include <Servo.h> 
 
 #define LEFT 180
 #define CENTER 90
@@ -69,7 +69,7 @@ Servo ultrasonicServo;  // create servo object to control a servo
 int currentPos = 0;    // variable to store the servo position 
 
 // Motors
-#include "AFMotor.h"
+#include <AFMotor.h>
 
 AF_DCMotor motor1(1);
 AF_DCMotor motor2(2);
